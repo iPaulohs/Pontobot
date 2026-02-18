@@ -53,7 +53,7 @@ class Program
 
         browser = await playwright.Chromium.LaunchAsync(new()
         {
-            Headless = false,
+            Headless = true,
             Args =
             [
                 "--no-sandbox",
